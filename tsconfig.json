@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "lib": ["es2020"],
+    "baseUrl": "./",
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "target": "es6",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "typeRoots": ["./typings", "node_modules/@types"],
+    "noImplicitAny": false,
+    "noEmit": true
+  },
+  "include": ["src/*", "app.ts"],
+  "exclude": ["node_modules", "**/*.test.js", "**/*.test.ts", "dist"]
+}
