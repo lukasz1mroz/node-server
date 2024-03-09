@@ -1,0 +1,6 @@
+1. Integrate Sentry for additional log / error tracking
+2. Send logs to external source eg. S3
+3. Check all TS types
+4. Update documentation - Readme, API spec
+5. Align error formatting
+6. Add tests for all endpoints and cases
