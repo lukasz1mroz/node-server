@@ -10,6 +10,7 @@
     "build": "rm -rf ./dist && mkdir dist && cp ./package.json ./dist/package.json && npx tsc",
     "deploy:eb": "cd dist/ && zip -r node-server.zip . && mv ./node-server.zip .. && cd .. && eb deploy --message=node",
     "start": "node index.js",
+    "debug": "node --inspect index.js",
     "dev": "nodemon --exec ts-node src/index.ts",
     "test": "npx jest"
   },
